@@ -1,10 +1,10 @@
-const string = '|/-\\|/-\\|'
-count = 100
+const string = '|/-\\|/-\\|';
+let count = 100;
 
 for (const char of string) {
   setTimeout(() => {
-    process.stdout.write(`\r${char}   `)
-  }, count += 200)
+    process.stdout.write(`\r${char}   `);
+  }, count += 200);
 }
 
 // setTimeout(() => {
